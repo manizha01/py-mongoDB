@@ -1,7 +1,7 @@
 
 import pymongo
 
-client = pymongo.MongoClient("mongodb://localhost:27017")
+client = pymongo.MongoClient("Here will be the localDB link")
 
 database = client['pydb_local']
 
